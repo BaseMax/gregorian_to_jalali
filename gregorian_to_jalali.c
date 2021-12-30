@@ -1,7 +1,7 @@
 /*
  * Language: C
  * Date: 2021/12/30
- * Name: gregorian_to_jalali
+ * Name: gregorian_to_jalali.c
  * Repository: https://github.com/BaseMax/gregorian_to_jalali
  */
 
@@ -54,7 +54,7 @@ char* gregorian_to_jalali_str(int year, int month, int day)
 {
 	char* buffer = malloc(sizeof(char) * 10);
 	date_struct result = gregorian_to_jalali(year, month, day);
-
-    sprintf(buffer, "%04d/%02d/%02d", year, month, day);
+	
+	sprintf(buffer, "%04d/%02d/%02d", result.year, result.month, result.day);
 	return buffer;
 }
