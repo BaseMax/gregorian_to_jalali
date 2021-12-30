@@ -10,22 +10,17 @@ date_default_timezone_set('Asia/Tehran');
 
 function gregorian_to_jalali(int $year, int $month, int $day) : string
 {
-	$input = [
-		"year" => $year,
-		"month" => $month,
-		"day" => $day,
-	];
 	$result = [];
 	$array = [0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334];
-	if($input["year"] <= 1600) {
-		$input["year"] -= 621;
+	if($year <= 1600) {
+		$year -= 621;
 		$result["year"] = 0;
 	} else {
-		$input["year"] -= 1600;
+		$year -= 1600;
 		$result["year"] = 979;
 	}
-	$temp = ($input["year"]>2) ? ($input["year"]+1) : $input["year"];
-	$days = ((int)(($temp+3)/4)) + (365*$input["year"]) - ((int)(($temp+99)/100)) - 80 + $array[$input["month"]-1] + ((int)(($temp+399)/400)) + $input["day"];
+	$temp = ($year>2) ? ($year+1) : $year;
+	$days = ((int)(($temp+3)/4)) + (365*$year) - ((int)(($temp+99)/100)) - 80 + $array[$month-1] + ((int)(($temp+399)/400)) + $day;
 	$result["year"] += 33*((int)($days/12053)); 
 	$days %= 12053;
 	$result["year"] += 4*((int)($days/1461));
