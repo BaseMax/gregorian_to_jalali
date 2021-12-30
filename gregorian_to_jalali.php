@@ -2,7 +2,7 @@
 /*
  * Language: PHP
  * Date: 2021/12/30
- * Name: gregorian_to_jalali
+ * Name: gregorian_to_jalali.php
  * Repository: https://github.com/BaseMax/gregorian_to_jalali
  */
 
