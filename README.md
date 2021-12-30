@@ -34,4 +34,4 @@ I think in most case we not need a very large library just to convert a date, so
 
 Feel free to improve/change or add a new solution for languages.
 
-© Copyright 2021, Max Base
+© Copyright 2021, Max Base and all of the contributors
