@@ -1,5 +1,7 @@
 # Gregorian to Jalali date (gregorian2jalali calendar)
 
+If you want to convert **Gregorian** date to **Jalali**, here is collection of minimal solution for most programming languages.
+
 ## Languages
 
 - [x] C
