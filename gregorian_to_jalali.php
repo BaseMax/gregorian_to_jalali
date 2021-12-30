@@ -51,6 +51,6 @@ function gregorian_to_jalali(int $year, int $month, int $day) : array
 
 function gregorian_to_jalali_str(int $year, int $month, int $day) : string
 {
-	$result = gregorian_to_jalali($year, $month, $data);
+	$result = gregorian_to_jalali($year, $month, $day);
 	return $result["year"] . "/" . $result["month"] . "/" . $result["day"];
 }
