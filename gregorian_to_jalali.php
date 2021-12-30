@@ -41,16 +41,17 @@ function gregorian_to_jalali(int $year, int $month, int $day) : array
 							? ($days % 31)
 							: (($days - 186) % 30));
 
-	if($result["month"] < 10)
-		$result["month"] = "0".$result["month"];
-	if($result["day"] < 10)
-		$result["day"] = "0".$result["day"];
-
 	return $result;
 }
 
 function gregorian_to_jalali_str(int $year, int $month, int $day) : string
 {
 	$result = gregorian_to_jalali($year, $month, $day);
+
+	if($result["month"] < 10)
+		$result["month"] = "0" . $result["month"];
+	if($result["day"] < 10)
+		$result["day"] = "0" . $result["day"];
+
 	return $result["year"] . "/" . $result["month"] . "/" . $result["day"];
 }
