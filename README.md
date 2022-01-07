@@ -18,7 +18,7 @@ If you want to convert **Gregorian** date to **Jalali**, here is collection of m
 - [ ] Visual Basic
 - [ ] Bash
 - [ ] Go
-- [ ] Python
+- [x] Python
 - [ ] Ruby
 - [ ] Perl
 - [ ] Rust
