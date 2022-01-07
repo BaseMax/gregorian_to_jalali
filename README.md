@@ -3,7 +3,7 @@
 If you want to convert **Gregorian** date to **Jalali**, here is collection of minimal solution for most programming languages.
 
 > If you know any of these languages, add them and send a Pull request.
-Also if you would like to learn a new language, its time and a chance for you. welcome!
+> Also if you would like to learn a new language, its time and a chance for you. welcome!
 
 ## Languages
 
@@ -12,7 +12,7 @@ Also if you would like to learn a new language, its time and a chance for you. w
 - [ ] C++
 - [ ] JavaScript
 - [ ] Dart
-- [ ] Java
+- [x] Java
 - [ ] Kotlin
 - [ ] C#
 - [ ] Visual Basic
