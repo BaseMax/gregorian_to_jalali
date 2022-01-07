@@ -28,7 +28,7 @@ If you want to convert **Gregorian** date to **Jalali**, here is collection of m
 
 2 years ago, I created a repository to archive minimal solution for convert a gregorian date to jalali [PHPJalaliDate avaiable at here](https://github.com/BaseMax/PHPJalaliDate).
 
-But here, I want to keep minimal solution for most programming languages.
+But here, Want to keep minimal solution for most programming languages.
 I think in most case we not need a very large library just to convert a date, so these solutions can help everyone in that way.
 
 ## Contribute
