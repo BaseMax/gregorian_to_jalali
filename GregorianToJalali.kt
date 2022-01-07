@@ -38,9 +38,9 @@ object GregorianToJalali {
     fun gregorianToJalaliStr(year: Int, month: Int, day: Int): String {
         val result = gregorianToJalali(year, month, day)
         if (result["month"]!! < 10) result["month"] =
-            String.format("%03d", result["month"]).toInt()
+            String.format("%02d", result["month"]).toInt()
         if (result["day"]!! < 10) result["day"] =
-            String.format("%03d", result["day"]).toInt()
+            String.format("%02d", result["day"]).toInt()
         return result["year"].toString() + "/" + result["month"] + "/" + result["day"]
     }
 }
