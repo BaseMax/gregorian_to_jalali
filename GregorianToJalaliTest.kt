@@ -1,13 +1,12 @@
-
-import GregorianToJalali.gregorianToJalaliStr
-import java.util.*
-
 /*
  * Language: Kotlin
  * Date: 2022/01/07
  * Name: GregorianToJalaliTest.kt
  * Repository: https://github.com/BaseMax/gregorian_to_jalali
  */
+
+import GregorianToJalali.gregorianToJalaliStr
+import java.util.*
 
 object GregorianToJalaliTest {
     @JvmStatic
