@@ -4,11 +4,8 @@
 # Repository: https://github.com/BaseMax/gregorian_to_jalali
 
 class GregorianToJalali :
-
-
     def __init__(self):
         pass
-
     
     def  gregorianToJalali(self, year,  month,  day) :
         result =  dict()
@@ -34,7 +31,6 @@ class GregorianToJalali :
 
     def  gregorianToJalaliStr(self, year,  month,  day) :
         result = self.gregorianToJalali(year, month, day)
-        if (result.get("month") < 10) : result["month"] = int(String.format("%02d",result.get("month")))
-        if (result.get("day") < 10) : result["day"] = int(String.format("%02d",result.get("day")))
+        if (result.get("month") < 10) : result["month"] = "0" + str(result.get("month"))
+        if (result.get("day") < 10) : result["day"] = "0" + str(result.get("day"))
         return str(result.get("year")) + "/" + str(result.get("month")) + "/" + str(result.get("day"))
-
