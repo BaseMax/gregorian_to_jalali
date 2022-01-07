@@ -45,11 +45,4 @@ object GregorianToJalali {
         return result["year"].toString() + "/" + result["month"] + "/" + result["day"]
     }
 }
-
-object GregorianToJalaliTest {
-    @JvmStatic
-    fun main(args: Array<String>) {
-        println(gregorianToJalaliStr(2022, 1, 7) == "1400/10/17")
-        println(gregorianToJalaliStr(2022, 3, 20) == "1400/12/29")
-    }
-}
+ 
