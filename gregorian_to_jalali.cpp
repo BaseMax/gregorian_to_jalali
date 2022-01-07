@@ -50,7 +50,7 @@ public:
         return result;
     }
 
-    [[maybe_unused]] std::string printDate(int year, int month, int day) const noexcept
+    [[maybe_unused]] std::string gregorianToJalaliStr(int year, int month, int day) const noexcept
     {
         DateStruct result = gregorianToJalali(year, month, day);
 
