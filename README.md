@@ -10,6 +10,7 @@ If you want to convert **Gregorian** date to **Jalali**, here is collection of m
 - [x] C
 - [x] PHP
 - [x] C++
+- [x] QML
 - [x] JavaScript
 - [ ] Typescript
 - [x] Dart
