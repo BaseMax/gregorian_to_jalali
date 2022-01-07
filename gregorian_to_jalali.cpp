@@ -1,3 +1,10 @@
+/*
+ * Language: C++
+ * Date: 2022/01/7
+ * Name: gregorian_to_jalali.cpp
+ * Repository: https://github.com/BaseMax/gregorian_to_jalali
+ */
+
 #include <iostream>
 #include <array>
 #include <string>
