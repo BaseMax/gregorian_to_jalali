@@ -20,6 +20,7 @@ If you want to convert **Gregorian** date to **Jalali**, here is collection of m
 - [ ] Go
 - [x] Python
 - [ ] Ruby
+- [ ] Elixir
 - [ ] Perl
 - [ ] Rust
 
