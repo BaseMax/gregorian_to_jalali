@@ -11,6 +11,7 @@ If you want to convert **Gregorian** date to **Jalali**, here is collection of m
 - [x] PHP
 - [x] C++
 - [ ] JavaScript
+- [ ] Typescript
 - [x] Dart
 - [x] Java
 - [x] Kotlin
