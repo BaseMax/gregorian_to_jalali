@@ -3,9 +3,6 @@
 # Name: GregorianToJalali.py
 # Repository: https://github.com/BaseMax/gregorian_to_jalali
 
-
-
-
 class GregorianToJalali :
 
 
