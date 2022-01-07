@@ -37,7 +37,7 @@ class GregorianToJalali :
 
     def  gregorianToJalaliStr(self, year,  month,  day) :
         result = self.gregorianToJalali(year, month, day)
-        if (result.get("month") < 10) : result["month"] = int(String.format("%03d",result.get("month")))
-        if (result.get("day") < 10) : result["day"] = int(String.format("%03d",result.get("day")))
+        if (result.get("month") < 10) : result["month"] = int(String.format("%02d",result.get("month")))
+        if (result.get("day") < 10) : result["day"] = int(String.format("%02d",result.get("day")))
         return str(result.get("year")) + "/" + str(result.get("month")) + "/" + str(result.get("day"))
 
