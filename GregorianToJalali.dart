@@ -1,6 +1,3 @@
-import 'dart:collection';
-
-
 /*
  * Language: Dart
  * Date: 2022/01/07
@@ -8,6 +5,7 @@ import 'dart:collection';
  * Repository: https://github.com/BaseMax/gregorian_to_jalali
  */
 
+import 'dart:collection';
 
 class GregorianToJalali {
   static HashMap<String, int> gregorianToJalali(int year, int month, int day) {
