@@ -47,8 +47,8 @@ public class GregorianToJalali {
     public static String gregorianToJalaliStr(int year, int month, int day) {
         HashMap<String, Integer> result = gregorianToJalali(year, month, day);
 
-        String monthSt = result.get("month") < 10 ? String.format("%03d", result.get("month")) : result.get("month").toString();
-        String daySt = result.get("day") < 10 ? String.format("%03d", result.get("day")) : result.get("day").toString();
+        String monthSt = result.get("month") < 10 ? String.format("%02d", result.get("month")) : result.get("month").toString();
+        String daySt = result.get("day") < 10 ? String.format("%02d", result.get("day")) : result.get("day").toString();
 
         return result.get("year") + "/" + monthSt + "/" + daySt;
     }
