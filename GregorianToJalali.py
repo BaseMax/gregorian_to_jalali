@@ -7,7 +7,7 @@ class GregorianToJalali :
     def __init__(self):
         pass
     
-    def gregorianToJalali(self, year,  month,  day) :
+    def gregorianToJalali(self, year, month, day) :
         result =  dict()
         array = [0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334]
         if (year <= 1600) :
@@ -29,7 +29,7 @@ class GregorianToJalali :
         result["day"] = 1 + ((days % 31) if (days < 186) else ((days - 186) % 30))
         return result
 
-    def gregorianToJalaliStr(self, year,  month,  day) :
+    def gregorianToJalaliStr(self, year, month, day) :
         result = self.gregorianToJalali(year, month, day)
         if (result.get("month") < 10) : result["month"] = "0" + str(result.get("month"))
         if (result.get("day") < 10) : result["day"] = "0" + str(result.get("day"))
