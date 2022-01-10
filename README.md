@@ -11,20 +11,20 @@ If you want to convert **Gregorian** date to **Jalali**, here is collection of m
 - [x] PHP
 - [x] C++ [STL, Boost, Qt]
 - [x] QML
-- [x] JavaScript
-- [ ] Typescript
 - [x] Dart
 - [x] Java
 - [x] Kotlin
 - [x] C#
-- [ ] Visual Basic
-- [ ] Bash
-- [ ] Go
 - [x] Python
+- [x] JavaScript
+- [ ] Typescript
 - [ ] Ruby
 - [ ] Elixir
 - [ ] Perl
 - [ ] Rust
+- [ ] Visual Basic
+- [ ] Bash
+- [ ] Go
 
 ## Philosophy
 
