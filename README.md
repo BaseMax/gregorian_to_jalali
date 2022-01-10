@@ -16,7 +16,7 @@ If you want to convert **Gregorian** date to **Jalali**, here is collection of m
 - [x] Dart
 - [x] Java
 - [x] Kotlin
-- [ ] C#
+- [x] C#
 - [ ] Visual Basic
 - [ ] Bash
 - [ ] Go
