@@ -17,6 +17,7 @@ If you want to convert **Gregorian** date to **Jalali**, here is collection of m
 - [x] C#
 - [x] Python
 - [x] JavaScript
+- [x] Go
 - [ ] Typescript
 - [ ] Ruby
 - [ ] Elixir
@@ -24,7 +25,6 @@ If you want to convert **Gregorian** date to **Jalali**, here is collection of m
 - [ ] Rust
 - [ ] Visual Basic
 - [ ] Bash
-- [ ] Go
 
 ## Philosophy
 
