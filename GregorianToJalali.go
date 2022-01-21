@@ -2,14 +2,14 @@ package main
 
 import "fmt"
 
-type DateStruct struct {
+type Date struct {
 	Year  int
 	Month int
 	Day   int
 }
 
-func GregorianToJalali(year int, month int, day int) DateStruct {
-	result := DateStruct{}
+func GregorianToJalali(year int, month int, day int) Date {
+	result := Date{}
 	array := [13]int{0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334}
 
 	if year <= 1600 {
