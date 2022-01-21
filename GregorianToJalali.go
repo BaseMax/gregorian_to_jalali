@@ -8,6 +8,10 @@ type Date struct {
 	Day   int
 }
 
+func (d Date) String() string {
+	return fmt.Sprintf("%d/%d/%d", d.Year, d.Month, d.Day)
+}
+
 func GregorianToJalali(year int, month int, day int) Date {
 	result := Date{}
 	array := [13]int{0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334}
@@ -55,11 +59,6 @@ func GregorianToJalali(year int, month int, day int) Date {
 	return result
 }
 
-func GregorianToJalaliStr(year int, month int, day int) string {
-	result := GregorianToJalali(year, month, day)
-	return fmt.Sprintf("%d/%d/%d", result.Year, result.Month, result.Day)
-}
-
 func main() {
-	fmt.Println(GregorianToJalaliStr(2022, 1, 20))
+	fmt.Println(GregorianToJalali(2022, 1, 21))
 }
