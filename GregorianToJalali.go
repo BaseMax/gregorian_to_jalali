@@ -9,15 +9,7 @@ type Date struct {
 }
 
 func (d Date) String() string {
-	if d.Month < 10 && d.Day < 10 {
-		return fmt.Sprintf("%d/0%d/0%d", d.Year, d.Month, d.Day)
-	} else if d.Month < 10 {
-		return fmt.Sprintf("%d/0%d/%d", d.Year, d.Month, d.Day)
-	} else if d.Day < 10 {
-		return fmt.Sprintf("%d/%d/0%d", d.Year, d.Month, d.Day)
-	} else {
-		return fmt.Sprintf("%d/%d/%d", d.Year, d.Month, d.Day)
-	}
+	return fmt.Sprintf("%d/%02d/%02d", d.Year, d.Month, d.Day)
 }
 
 func GregorianToJalali(year int, month int, day int) Date {
@@ -69,4 +61,6 @@ func GregorianToJalali(year int, month int, day int) Date {
 
 func main() {
 	fmt.Println(GregorianToJalali(2022, 1, 22))
+	fmt.Println(GregorianToJalali(2022, 4, 4))
+	fmt.Println(GregorianToJalali(2023, 10, 9))
 }
